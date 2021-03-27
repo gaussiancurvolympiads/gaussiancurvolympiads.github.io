@@ -1,0 +1,1 @@
+# gaussiancurvolympiads.github.io
