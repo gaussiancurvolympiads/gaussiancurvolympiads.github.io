@@ -104,25 +104,22 @@
 											
 										</table>
 									</div>
-									<section>
-                                                                       <form action="mailto:gaussiancurv180@gmail.com" method="post">
-									       <ul>
-                                                       <li>
-                                                       <label for="name">Name:</label>
-                                                      <input type="text" id="name" name="user_name">
-                                                          </li>
-                                                                  <li>
-                                                         <label for="mail">E-mail:</label>
-                                                                   <input type="email" id="mail" name="user_email">
-                                                                       </li>
-                                                                     <li>
-                                                                     <label for="msg">Message:</label>
-                                                                                     <textarea id="msg" name="user_message"></textarea>
-									     
-									     
-									   <li>
-                                                                             <button type="submit">Send your message</button>
-                                                                            </li>
+								
+      <form id="fs-frm" name="GIMO Registration" accept-charset="utf-8" action="https://formspree.io/f/mdoyajjo" method="post">
+  <fieldset id="fs-frm-inputs">
+    <label for="full-name">Full Name</label>
+    <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
+         <label for="full-name">AoPS Name (Write NA if you don't have one)</label>
+    <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
+      
+    <label for="email-address">Email Address</label>
+    <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required="">
+    <label for="message">Class</label>
+    <textarea rows="5" name="message" id="message" placeholder="Enter your class here" required=""></textarea>
+    <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+  </fieldset>
+  <input type="submit" value="Submit">
+</form>
                              </li>
                               </ul>
 
